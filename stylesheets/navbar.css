@@ -1,0 +1,46 @@
+header{
+    background: black;
+    position:sticky;
+    top:0;
+    left:0;
+    width: 100%-1.5vw;
+    height: 5vh;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    float:left;
+    color: white;
+}
+
+.nav_links{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav_links li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+    padding: 8px 12px 8px 12px; 
+}
+
+.nav_links li:hover {
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.active-page {
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+}
+

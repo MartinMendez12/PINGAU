@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+.parallax-banner{
+    position:relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-title-animation{
+    display: none;
+    position: absolute;
+    font-size: 4rem;
+    font-family: 'Merienda', cursive;
+    color:white;
+    text-align: center;
+    transform: translateY(70vh);
+    z-index: -4;
+    text-shadow: 4px 4px black;
+}
+
+#start-btn{
+    display: none;
+    text-decoration: none;
+    transform: translateY(90vh);
+    padding: 8px 30px;
+    background: white;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 40px;
+    z-index: -4;
+    position: absolute;
+}
+
+.parallax-img{
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    pointer-events:none;
+    object-fit: cover;
+}
+
+.capa2{
+    z-index: -3;
+}
+
+.capa3{
+    z-index: -2;
+}
